@@ -28,9 +28,12 @@
 
     ////////////////////////////////////////////////////////////////////////
     // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-     createPlatform(0,100);
-        createPlatform(0,500);
-        createCollectable()
+     
+    
+     createPlatform(0,330); // normal horizontal platform(20% the normal width)     
+     createPlatform(0,430); // small vertical wall (10% the normal width and 10x the height)
+     createPlatform(0,550); //small horizontal platform
+     
     /*
      * ground : here, we create a floor. Given the width of of the platform
      * asset, giving it a scaleX and scaleY of 2 will stretch it across the
@@ -44,7 +47,7 @@
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
-  }/*   
-  createPlatform(x,y scaleX, scaleY
+  } 
+  /*createPlatform(x,y scaleX, scaleY)*/
   platform.init = init;
 })(window);
